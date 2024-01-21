@@ -1,0 +1,101 @@
+[
+  {
+    "id": 4,
+    "nombre": "Charmander",
+    "tipos": ["Fuego"],
+    "altura_en_metros": 0.6,
+    "estadísticas": {
+      "velocidad": 50,
+      "fuerza": 52,
+      "precisión": 60,
+      "resistencia": 43
+    },
+    "peso_en_kilogramos": 8.5,
+    "movimientos": [
+      {
+        "nombre": "Placaje",
+        "descripción": "El usuario choca contra el oponente con sus brazos.",
+        "potencia": 40,
+        "contacto": true
+      },
+      {
+        "nombre": "Llamarada",
+        "descripción": "El usuario lanza una bola de fuego al oponente.",
+        "potencia": 50,
+        "contacto": false
+      },
+      {
+        "nombre": "Onda Ígnea",
+        "descripción": "El usuario lanza una ola de fuego al oponente.",
+        "potencia": 60,
+        "contacto": false
+      }
+    ],
+    "imagen": "https://assets.pokemon.com/assets/cms/img/pokedex/full/004.png",
+    "evoluciones": [
+      {
+        "nombre": "Charmeleon",
+        "nivel": 16
+      },
+      {
+        "nombre": "Charizard",
+        "nivel": 36
+      }
+    ],
+    "habilidades": [
+      {
+        "id": 1,
+        "nombre": "Fuego"
+      }
+    ],
+    "color": "naranja"
+  },
+  {
+    "id": 1,
+    "nombre": "Bulbasaur",
+    "tipos": ["Planta", "Veneno"],
+    "altura_en_metros": 0.7,
+    "estadísticas": {
+      "velocidad": 45,
+      "fuerza": 45,
+      "precisión": 40,
+      "resistencia": 45
+    },
+    "peso_en_kilogramos": 6.9,
+    "movimientos": [
+      {
+        "nombre": "Rayo solar",
+        "descripción": "Carga energía solar durante el día y la libera en un poderoso rayo al anochecer.",
+        "potencia": 120,
+        "contacto": false
+      },
+      {
+        "nombre": "Drenadoras",
+        "descripción": "Absorbe la energía del oponente y la usa para curar al usuario.",
+        "potencia": 50,
+        "contacto": true
+      }
+    ],
+    "imagen": "https://assets.pokemon.com/assets/cms/img/pokedex/full/001.png",
+    "evoluciones": [
+      {
+        "nombre": "Ivysaur",
+        "nivel": 16
+      },
+      {
+        "nombre": "Venusaur",
+        "nivel": 32
+      }
+    ],
+    "habilidades": [
+      {
+        "id": 1,
+        "nombre": "Hierba"
+      },
+      {
+        "id": 2,
+        "nombre": "Veneno"
+      }
+    ]
+  }
+]
